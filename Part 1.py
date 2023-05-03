@@ -7,4 +7,8 @@ def Maryland_detector(Maryland_temp) :
         return "Maryland is Good"
     elif Maryland_temp >= 46 and Maryland_temp <= 70 :
         return "Maryland is Warm"
-    elif Maryland_temp >=
+    elif Maryland_temp >= 71 and Maryland_temp <= 85 :
+        return "Maryland is Hot"
+    else:
+        return "Maryland is Extremely Hot"
+
