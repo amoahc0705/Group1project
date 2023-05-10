@@ -1,19 +1,19 @@
 
-#<10 - Extremely cold
-#10 - 30 - cold
-#31 - 45 - good
-#46 - 70 - Warm
-#71 - 85 - Hot
-#>86 - Extremely hot
+ #<10 - Extremely cold
+ #10 - 30 - cold
+ #31 - 45 - good
+ #46 - 70 - Warm
+ #71 - 85 - Hot
+ #>86 - Extremely hot
 def temperature_reading():
-    Maryland_temp = int(input("Enter Maryland temperature"))
-    Texas_temp = int(input("Enter Texas temperature"))
-    Maine_temp = int(input("Enter Maine temperature"))
+    Maryland_temp =int(input("Enter Maryland temperature"))
+    Texas_temp =int(input("Enter Texas temperature"))
+    Maine_temp =int(input("Enter Maine temperature"))
 
-    print(temperature_detector("Maryland", Maryland_temp))
-    print(temperature_detector("Texas", Texas_temp))
-    print(temperature_detector("Maine", Maine_temp))
-    print(favourable(Maryland_temp,Texas_temp,Maine_temp))
+    print(temperature_detector ("Maryland", Maryland_temp))
+    print(temperature_detector ("Texas", Texas_temp))
+    print(temperature_detector ("Maine", Maine_temp))
+    print(favourable (Maryland_temp,Texas_temp,Maine_temp))
 
 def temperature_detector(state_name, temperature):
     if temperature < 10:
