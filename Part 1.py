@@ -16,7 +16,4 @@ def temperature_reading():
 
 
 
-
-
-
 temperature_reading()
