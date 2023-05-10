@@ -9,7 +9,7 @@ def temperature_reading():
     Texas_temp = int(input("Enter Texas temperature"))
     Maine_temp = int(input("Enter Maine temperature"))
 
-    print(temperature_dector("Maryland, Maryland_temp"))
+    print(temperature_detector("Maryland, Maryland_temp"))
     print(temperature_detector("Texas, Texas_temp"))
     print(temperature_detector("Maine, Maine_temp"))
     print(favourable(Maryland_temp,Texas_temp,Maine_temp))
