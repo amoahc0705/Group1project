@@ -1,13 +1,13 @@
-def Texas_detector(Texas_temp):
-    if Texas_temp <10:
-        return "Texas is Extremely cold"
-    elif Texas_temp >=10 and Texas_temp <=30:
-        return "Texas is cold"
-    elif Texas_temp >=31 and Texas_temp <=45:
-        return "Texas is good"
-    elif Texas_temp >=46 and Texas_temp <=70:
-        return "Texas is warm"
-    elif Texas_temp >=71 and Texas_temp <=85:
-        return "Texas is hot"
+def temperature_detector(state_name, temperature):
+    if temperature <10:
+        return state_name + "is Extremely cold"
+    elif temperature >=10 and temperature <=30:
+        return state_name+ "is cold"
+    elif state_name >=31 and temperature <=45:
+        return state_name + "is good"
+    elif temperature >=46 and temperature <=70:
+        return state_name + "is warm"
+    elif temperature >=71 and temperature <=85:
+        return state_name + "is hot"
     else:
-        return "Texas is Extremely Hot"
+        return state_name +"is Extremely Hot"
